@@ -1,0 +1,22 @@
+*{
+margin:0;
+padding:0;
+}
+#container{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+header{
+    height: 148px;
+    background-image: url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#reloj{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
