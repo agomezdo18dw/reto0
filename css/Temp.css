@@ -44,9 +44,12 @@ ul li a:hover:not(#active) {
 
 #active {
   background-color: rgb(179, 66, 66);
+  font-weight: bold;
 }
-h3 {
-    text-align: center;
+h2 {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 tr{
     height: 100px;
@@ -111,15 +114,18 @@ section a:link{
   overflow: hidden;
   transition: max-height 0.8s ease-out;
 }
+section {
+  margin-bottom: 15px;
+}
 section p {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 20px;
 }
 ol li{
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 17px;
   margin-top: 5px;
 }
 aside{
