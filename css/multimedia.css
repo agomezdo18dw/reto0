@@ -44,6 +44,10 @@ li a:hover:not(#active) {
 h3 {
     text-align: center;
 }
+section div {
+  width: 49%;
+  float: left;
+}
 footer {
     width: 100%;
     height: 30px;
@@ -56,9 +60,6 @@ footer {
 footer p {
     padding-top: 5px;
 }
-dd{
-  margin-left: 50px;
-}
 #FotSin{
   margin-top: 50px;
   float:left;
@@ -68,10 +69,9 @@ dd{
   border-radius: 5%;
 }
 iframe{
-  width: 1000px;
+  width: 100px;
 }
 section{
-  width: 100%;
   margin:20px;
   text-align: center;
 }
