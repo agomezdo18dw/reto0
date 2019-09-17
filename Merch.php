@@ -23,6 +23,7 @@
             </ul>
         </nav>
         <section>
+            <h3>Merchandising</h3>
             <table id="merchan">
                 <tr>
                     <th>
