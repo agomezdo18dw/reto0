@@ -3,7 +3,6 @@
     padding:0;
     }
     #container{
-        margin-top: 20px;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -41,7 +40,7 @@
       background-color: #111;
     }
     #active {
-      background-color: #4CAF50;
+      background-color: rgb(179, 66, 66);
     }
     h3{
       text-align: center;

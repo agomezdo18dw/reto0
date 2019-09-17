@@ -26,342 +26,342 @@
         <section>
             <h3>Temporadas</h3>
             <button class="acordeon">
-                Temporada 1 (14 episodios)</button>
+                <b>Temporada 1 (14 episodios)</b></button>
             <div id="temporada1" class="panel">
-            <p>Emitida en 1983, cuenta con 14 episodios</p><br>
+            <p>Emitida en 1983, cuenta con 14 episodios</p>
             <ol>
-                <li>Operación A.T "El pueblo de San Rio Blanco"</li><br>
+                <li>Operación A.T "El pueblo de San Rio Blanco"</li>
                 <li>
                 Operación A.T "El pueblo de San Rio Blanco"
-                </li><br>
+                </li>
                 <li>
                 Los hijos de Jamestown
-            </li><br>
+            </li>
             <li>
                 Presos y convictos
-            </li><br>
+            </li>
             <li>
                 Una guerra pequeña y mortal
-            </li><br>
+            </li>
             <li>
                 Día negro en Bad Rock
-            </li><br>
+            </li>
             <li>
                 El conejo que se comió Las Vegas
-            </li><br>
+            </li>
             <li>
                 Los habitantes de las afueras
-            </li><br>
+            </li>
             <li>
                 Vacaciones en las colinas
-            </li><br>
+            </li>
             <li>
                 Operación "costa oeste"
-            </li><br>
+            </li>
             <li>
                 Una vez más
-            </li><br>
+            </li>
             <li>
                 Hasta que la muerte nos separe
-            </li><br>
+            </li>
             <li>
                 Pasajeros insólitos
-            </li><br>
+            </li>
             <li>
                 Un sitio agradable de visitar
-            </li><br>
+            </li>
         </ol>
     </div>
     <button class="acordeon">
-        Temporada 2 (23 episodios)
+        <b>Temporada 2 (23 episodios)</b>
 </button>
     <div id="temporada2" class="panel">
         <p>
             Emitida entre 1983 y 1984, cuenta con 23 episodios
-        </p><br>
+        </p>
         <ol>
             <li>
             Polvo de diamantes  
-            </li><br>
+            </li>
             <li>
                 Receta para pan pesado
-            </li><br>
+            </li>
             <li>
                 La única iglesia en la ciudad
-            </li><br>
+            </li>
             <li>
                 Mal tiempo en la frontera
-            </li><br>
+            </li>
             <li>
                 Cuando tu regresas, jinete distante
-            </li><br>
+            </li>
             <li>
                 Cuando tu regresas, jinete distante
-            </li><br>
+            </li>
             <li>
                 La guerra de taxis
-            </li><br>
+            </li>
             <li>
                 Trabajo forzoso
-            </li><br>
+            </li>
             <li>
                 Siempre hay una captura
-            </li><br>
+            </li>
             <li>
                 Agua, agua en todas partes
-            </li><br>
+            </li>
             <li>
                 Acero
-            </li><br>
+            </li>
             <li>
                 El voto blanco
-            </li><br>
+            </li>
             <li>
                 La vaca maltesa
-            </li><br>
+            </li>
             <li>
                 El vista plano
-            </li><br>
+            </li>
             <li>
                 La batalla de bel air
-            </li><br>
+            </li>
             <li>
                 Díselo con balas
-            </li><br>
+            </li>
             <li>
                 Veneno puro
-            </li><br>
+            </li>
             <li>
                 Ahí fuera hay un desierto
-            </li><br>
+            </li>
             <li>
                 Un negocio de desguace
-            </li><br>
+            </li>
             <li>
                 Más difícil de lo que parecía
-            </li><br>
+            </li>
             <li>
                 Maniobras mortales
-            </li><br>
+            </li>
             <li>
                 Persuasión semi-amistosa
-            </li><br>
+            </li>
             <li>
                 Recuerdos de un amigo
-            </li><br>
+            </li>
         </ol>
     </div>
     <button class="acordeon">
-        Temporada 3 (25 episodios)
+        <b>Temporada 3 (25 episodios)</b>
 </button>
     <div id="temporada3" class="panel">
         <p>
             Emitida entre 1984 y 1985, cuenta con 25 episodios
-        </p><br>
+        </p>
         <ol>
             <li>
                 Balas y bikinis
-            </li><br>
+            </li>
             <li>
                 El recodo del río (primera parte)
-            </li><br>
+            </li>
             <li>
                 El recodo del río (segunda parte)
-            </li><br>
+            </li>
             <li>
                 Fuego
-            </li><br>
+            </li>
             <li>
                 ¡Leña!
-            </li><br>
+            </li>
             <li>
                 Ataque doble
-            </li><br>
+            </li>
             <li>
                 Problemas sobre ruedas
-            </li><br>
+            </li>
             <li>
                 La isla
-            </li><br>
+            </li>
             <li>
                 Gira por toda Europa
-            </li><br>
+            </li>
             <li>
                 Los sheriffs de Rivertown
-            </li><br>
+            </li>
             <li>
                 Las campanas de St. Mary
-            </li><br>
+            </li>
             <li>
                 La última moda
-            </li><br>
+            </li>
             <li>
                 Fuera de combate
-            </li><br>
+            </li>
             <li>
                 Un café con Joe
-            </li><br>
+            </li>
             <li>
                 El gran apretón
-            </li><br>
+            </li>
             <li>
                 Campeón
-            </li><br>
+            </li>
             <li>
                 Pieles
-            </li><br>
+            </li>
             <li>
                 Un casino en un camión
-            </li><br>
+            </li>
             <li>
                 Blancos móviles
-            </li><br>
+            </li>
             <li>
                 Caballeros de al ruta
-            </li><br>
+            </li>
             <li>
                 Desperdicios
-            </li><br>
+            </li>
             <li>
                 Recompensa
-            </li><br>
+            </li>
             <li>
                 Asalto en Beverly Hills
-            </li><br>
+            </li>
             <li>
                 Se está cociendo un problema
-            </li><br>
+            </li>
             <li>
                 Incidente en Crystal Lake
-            </li><br>
+            </li>
         </ol>
     </div>
     <button class="acordeon">
-        Temporada 4 (25 episodios)
+        <b>Temporada 4 (25 episodios)</b>
 </button>
     <div id="temporada4" class="panel">
         <p>
             Emitida entre 1985 y 1986, cuenta con 23 episodios
-        </p><br>
+        </p>
         <ol>
             <li>
                 El día del juicio (primera parte)
-            </li><br>
+            </li>
             <li>
                 El día del juicio (segunda parte)
-            </li><br>
+            </li>
             <li>
                 Dónde está el monstruo cuando lo buscas
-            </li><br>
+            </li>
             <li>
                 Alquiler con opción a muerte
-            </li><br>
+            </li>
             <li>
                 El camino de la esperanza
-            </li><br>
+            </li>
             <li>
                 El corazón del rock and roll
-            </li><br>
+            </li>
             <li>
                 Lucha libre
-            </li><br>
+            </li>
             <li>
                 Sangre, sudor y victoria
-            </li><br>
+            </li>
             <li>
                 Cambio de personalidad
-            </li><br>
+            </li>
             <li>
                 Como buenos vecinos
-            </li><br>
+            </li>
             <li>
                 El doctor no está
-            </li><br>
+            </li>
             <li>
                 El tío partenueces
-            </li><br>
+            </li>
             <li>
                 La rueda de la fortuna
-            </li><br>
+            </li>
             <li>
                 Viene el Equipo A
-            </li><br>
+            </li>
             <li>
                 Sólo para socios
-            </li><br>
+            </li>
             <li>
                 Cowboy George
-            </li><br>
+            </li>
             <li>
                 Esperando a Wayne el loco
-            </li><br>
+            </li>
             <li>
                 Misterio en Whispering Pines
-            </li><br>
+            </li>
             <li>
                 Bajo la superficie
-            </li><br>
+            </li>
             <li>
                 La misión de la paz
-            </li><br>
+            </li>
             <li>
                 ¿Qué ocurre con Harry?
-            </li><br>
+            </li>
             <li>
                 El equipo y la familia
-            </li><br>
+            </li>
             <li>
                 El ruido del trueno
-            </li><br>
+            </li>
         </ol>
     </div>
     <button class="acordeon">
-        Temporada 5 (23 episodios)
+        <b>Temporada 5 (23 episodios)</b>
     </button>
     <div id="temporada5" class="panel">
         <p>
             Emitida entre 1986 y 1987, cuenta con 13 episodios
-        </p><br>
+        </p>
         <ol>
             <li>
-                El topo<br>
-            </li><br>
+                El topo
+            </li>
             <li>
                 Consejo de guerra
-            </li><br>
+            </li>
             <li>
                 Línea de fuego
-            </li><br>
+            </li>
             <li>
                 Táctiva defensiva
-            </li><br>
+            </li>
             <li>
                 La teoría de la revolución
-            </li><br>
+            </li>
             <li>
                 La intriga
-            </li><br>
+            </li>
             <li>
                 Asesinato en el auditorio
-            </li><br>
+            </li>
             <li>
                 Reunión familiar
-            </li><br>
+            </li>
             <li>
                 El punto sin retorno
-            </li><br>
+            </li>
             <li>
                 La calavera de cristal
-            </li><br>
+            </li>
             <li>
                 La espía que se burló de mi
-            </li><br>
+            </li>
             <li>
                 El equipo de la tercera edad
-            </li><br>
+            </li>
             <li>
                 La emboscada
-            </li><br>
+            </li>
         </ol>
     </div>
     <script>

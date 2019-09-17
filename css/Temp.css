@@ -3,7 +3,6 @@ margin:0;
 padding:0;
 }
 #container{
-    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -44,7 +43,7 @@ ul li a:hover:not(#active) {
 }
 
 #active {
-  background-color: #4CAF50;
+  background-color: rgb(179, 66, 66);
 }
 h3 {
     text-align: center;
@@ -62,8 +61,6 @@ tr{
     width: 800px;
     text-align: justify;
 }
-
-
 .image {
     width: 250px;
     text-align: center
@@ -114,13 +111,22 @@ section a:link{
   overflow: hidden;
   transition: max-height 0.8s ease-out;
 }
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+}
 ol li{
   margin-left: 20px;
+  font-size: 13px;
+  margin-top: 5px;
 }
 aside{
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
   float:left;
-  width: 49%;
+  width: 450px;
 }
 footer {
     width: 100%;

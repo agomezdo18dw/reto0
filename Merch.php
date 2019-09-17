@@ -27,30 +27,42 @@
             <table id="merchan">
                 <tr>
                     <th>
+                        <h4>Funko Pop M. A. Barracus</h4>
                         <img class="articulos" src="img/Merchandising/prod1.jpg" alt="error1">
-                        <h3>15€</h3>
+                        <h3>12€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                     <th>
+                        <h4>Figura M. A. Barracus</h4>
                         <img class="articulos" src="img/Merchandising/prod2.jpg" alt="error1">
-                        <h3>15€</h3>
+                        <h3>5€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                     <th>
+                        <h4>Figura furgoneta equipo A</h4>
                         <img class="articulos" src="img/Merchandising/prod3.jpg" alt="error1">
-                        <h3>15€</h3>
+                        <h3>25€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                 </tr>
                 <tr>
                     <th>
+                        <h4>Camiseta Equipo A</h4>
                         <img class="articulos" src="img/Merchandising/prod4.jpg" alt="error1">
-                        <h3>15€</h3>
+                        <h3>10€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                     <th>
+                       <h4>Camiseta furgoneta equipo A</h4>
                         <img class="articulos" src="img/Merchandising/prod5.jpg" alt="error1">
-                        <h3>15€</h3>
+                        <h3>10€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                     <th>
+                        <h4>Camiseta M. A. Barracus</h4>
                         <img class="articulos" src="img/Merchandising/prod6.jpg" alt="error1">
                         <h3>15€</h3>
+                        <input type ="button" value="Comprar">
                     </th>
                 </tr>
             </table>
