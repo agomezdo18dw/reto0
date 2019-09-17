@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Reto0/Actores</title>
     <link rel="stylesheet" href="css/merchan.css">
+    <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
 </head>
 <body>
@@ -13,12 +14,12 @@
         </header>
         <nav>
             <ul>
-                <li><a href="Desc">Descripcion</a></li>
-                <li><a href="Temp">Temporadas</a></li>
-                <li><a href="Act.html">Actores</a></li>
-                <li><a href="merchan.html" id="active">Merchandising</a></li>
-                <li><a href="multimedia.html">Multimedia</a></li>
-                <li style="float:right"><a href="index.html">Inicio</a></li>
+                <li><a href="Desc.php">Descripcion</a></li>
+                <li><a href="Temp.php">Temporadas</a></li>
+                <li><a href="Act.php">Actores</a></li>
+                <li><a href="Merch.php" id="active">Merchandising</a></li>
+                <li><a href="Mult.php">Multimedia</a></li>
+                <li style="float:right"><a href="Index.php">Inicio</a></li>
             </ul>
         </nav>
         <section>
@@ -54,7 +55,11 @@
             </table>
         </section>
         <footer>
-            <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo</p>
+            <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo
+                <script>
+                    document.write('<?php echo "$fechaPHP";?>');
+                </script>
+            </p>
         </footer>
     </div>
 </body>

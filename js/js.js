@@ -17,7 +17,7 @@ let Hora = () => {
     //segundo actual
     let segundo = añadirZero(h.getSeconds());
     //Ponemos la hora todo junto
-    let miReloj = hora + " : " + minuto + " : " + segundo;
+    let miReloj = hora + ":" + minuto + ":" + segundo;
     //Devolvemos la hora
     return miReloj; 
 }
@@ -57,3 +57,14 @@ let actualizar = () => {
 }
 //Funcion que inicia temporizador para actualizar hora y fecha
 setInterval(actualizar,1000);
+
+
+// si el bloque está visible, lo oculta, y si está oculto, lo muestra
+function cambiar(content){
+    vista=document.getElementById(content).style.display;
+    if (vista=='none')
+        vista='block';
+    else
+        vista='none';
+    document.getElementById(content).style.display = vista;
+}

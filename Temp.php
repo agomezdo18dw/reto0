@@ -4,18 +4,8 @@
     <meta charset="utf-8">
     <title>Reto0/Temporadas</title>
     <link rel="stylesheet" href="css/Temp.css">
+    <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
-    <script type="text/javascript">
-        // si el bloque está visible, lo oculta, y si está oculto, lo muestra
-            function cambiar(content){
-                vista=document.getElementById(content).style.display;
-                if (vista=='none')
-                    vista='block';
-                else
-                    vista='none';
-                document.getElementById(content).style.display = vista;
-            }
-    </script>
 </head>
 <body>
     <div id="container">
@@ -24,33 +14,26 @@
         </header>
         <nav>
             <ul>
-                <li class="li"><a href="Desc">Descripcion</a></li>
-                <li class="li"><a href="Temp.html" id="active">Temporadas</a></li>
-                <li class="li"><a href="Act.html">Actores</a></li>
-                <li class="li"><a href="Merch">Merchandising</a></li>
-                <li class="li"><a href="Mult">Multimedia</a></li>
-                <li class="li" style="float:right"><a href="Index">Inicio</a></li>
+                <li><a href="Desc.php">Descripcion</a></li>
+                <li><a href="Temp.php" id="active">Temporadas</a></li>
+                <li><a href="Act.php">Actores</a></li>
+                <li><a href="Merch.php">Merchandising</a></li>
+                <li><a href="Mult.php">Multimedia</a></li>
+                <li style="float:right"><a href="Index.php">Inicio</a></li>
             </ul>
         </nav>
         <section>
-            <h3>
-            Temporadas
-        </h3>
-        <h4><a class="ocultar" href="#" onclick="cambiar('temporada1'); return false;">
-        Temporada 1 (14 episodios)
-    </a></h4>
-        <div id="temporada1" style="display: none;">
-        <p>
-            Emitida en 1983, cuenta con 14 episodios
-        </p>
-        <ol>
-            <li>
+            <h3>Temporadas</h3>
+            <h4><a class="ocultar" href="#" onclick="cambiar('temporada1'); return false;">
+                Temporada 1 (14 episodios)</a></h4>
+            <div id="temporada1" style="display: none;">
+            <p>Emitida en 1983, cuenta con 14 episodios</p>
+            <ol>
+                <li>Operación A.T "El pueblo de San Rio Blanco"</li><br>
+                <li>
                 Operación A.T "El pueblo de San Rio Blanco"
-            </li><br>
-            <li>
-                Operación A.T "El pueblo de San Rio Blanco"
-            </li><br>
-            <li>
+                </li><br>
+                <li>
                 Los hijos de Jamestown
             </li><br>
             <li>
@@ -385,9 +368,13 @@
         <aside>
         <img src="img/equipoA.jpg" style="width: 80%" height="80%">
     </aside>
-        <footer>
-            <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo</p>
-        </footer>
+    <footer>
+            <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo
+                <script>
+                    document.write('<?php echo "$fechaPHP";?>');
+                </script>
+            </p>
+    </footer>
     </div>
 </body>
 </html>
