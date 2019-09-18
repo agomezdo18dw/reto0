@@ -27,11 +27,11 @@ ul {
   background-color: #333;
 }
 
-.li {
+ul li {
   float: left;
 }
 
-.li a {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -39,7 +39,7 @@ ul {
   text-decoration: none;
 }
 
-.li a:hover:not(#active) {
+ul li a:hover:not(#active) {
   background-color: #111;
 }
 
@@ -71,6 +71,36 @@ tr{
 section{
   width: 49%;
   float: left;
+  padding-top: 20px;
+}
+.ocultar{
+  text-emphasis: none;
+}
+section a:link{
+  text-decoration: none;
+  color: black;
+}
+.acordeon {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .acordeon:hover {
+  background-color: #ccc;
+}.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+ol li{
+  margin-left: 20px;
 }
 aside{
   margin-top: 20px;

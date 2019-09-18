@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="css/Temp.css">
     <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
+    <script type="text/javascript">
+    var acc = document.getElementsByClassName("acordeon");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+    </script>
 </head>
 <body>
     <div id="container">
@@ -24,9 +40,9 @@
         </nav>
         <section>
             <h3>Temporadas</h3>
-            <h4><a class="ocultar" href="#" onclick="cambiar('temporada1'); return false;">
-                Temporada 1 (14 episodios)</a></h4>
-            <div id="temporada1" style="display: none;">
+            <button class="acordeon" onclick="cambiar('temporada1'); return false;">
+                Temporada 1 (14 episodios)</button>
+            <div id="temporada1" class="panel" style="display: block;">
             <p>Emitida en 1983, cuenta con 14 episodios</p>
             <ol>
                 <li>Operación A.T "El pueblo de San Rio Blanco"</li><br>
@@ -71,10 +87,10 @@
             </li><br>
         </ol>
     </div>
-        <h4><a class="ocultar" href="#" onclick="cambiar('temporada2'); return false;">
+    <button class="acordeon" onclick="cambiar('temporada2')"; onclick="animation"; return false;">
         Temporada 2 (23 episodios)
-    </a></h4>
-    <div id="temporada2" style="display: none;">
+</button>
+    <div id="temporada2" class="panel" style="display: none;">
         <p>
             Emitida entre 1983 y 1984, cuenta con 23 episodios
         </p>
@@ -150,10 +166,10 @@
             </li><br>
         </ol>
     </div>
-        <h4><a class="ocultar" href="#" onclick="cambiar('temporada3'); return false;">
+    <button class="acordeon" onclick="cambiar('temporada3'); return false;">
         Temporada 3 (25 episodios)
-    </a></h4>
-    <div id="temporada3" style="display: none;">
+</button>
+    <div id="temporada3" class="panel" style="display: none;">
         <p>
             Emitida entre 1984 y 1985, cuenta con 25 episodios
         </p>
@@ -235,10 +251,10 @@
             </li><br>
         </ol>
     </div>
-        <h4><a class="ocultar" href="#" onclick="cambiar('temporada4'); return false;">
+    <button class="acordeon" onclick="cambiar('temporada4'); return false;">
         Temporada 4 (25 episodios)
-    </a></h4>
-    <div id="temporada4" style="display: none;">
+</button>
+    <div id="temporada4" class="panel" style="display: none;">
         <p>
             Emitida entre 1985 y 1986, cuenta con 23 episodios
         </p>
@@ -314,10 +330,10 @@
             </li><br>
         </ol>
     </div>
-        <h4><a class="ocultar" href="#" onclick="cambiar('temporada5'); return false;">
+    <button class="acordeon" onclick="cambiar('temporada5'); return false;">
         Temporada 5 (23 episodios)
-    </a></h4>
-    <div id="temporada5" style="display: none;">
+    </button>
+    <div id="temporada5" class="panel" style="display: none;">
         <p>
             Emitida entre 1986 y 1987, cuenta con 13 episodios
         </p>
