@@ -23,7 +23,15 @@
             </ul>
         </nav>
         <section>
-            
+           <center>
+               <h2>Video 1</h2>
+               <iframe src="https://www.youtube.com/embed/N1HMCArgqWM?rel=0&showinfo=0" style="width:500px; height:300px"></iframe>
+                <p>Esta es la secuencia de inicio (opening) de la serie</p>
+                <br>
+                <h2>Video 2</h2>
+                <iframe src="https://www.youtube.com/embed/aUVhTqN7Nps?=rel=0&start=9" style="width:500px; height:300px"></iframe>
+                <p>Hace no mucho sacaron una película, y éste es el trailer</p>
+            </center>
         </section>
         <footer>
             <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo

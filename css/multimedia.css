@@ -68,6 +68,11 @@ dd{
   margin-left: 40px;
   border-radius: 5%;
 }
+iframe{
+  width: 1000px;
+}
 section{
+  width: 100%;
   margin:20px;
+  text-align: center;
 }
