@@ -59,15 +59,6 @@ let actualizar = () => {
 setInterval(actualizar,1000);
 
 
-// Funcion que muestra u oculta los textos
-let cambiar = (content) => {
-    //Coge el estado del elemento
-    let vista = document.getElementById(content).style.display;
-    //Comprueba cual es el estado del elemento y lo cambia
-    if (vista == 'none')
-        vista = 'block';
-    else
-        vista = 'none';
-    //Devuelve el estado nuevo del elemento
-    document.getElementById(content).style.display = vista;
-}
+
+
+

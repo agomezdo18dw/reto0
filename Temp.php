@@ -6,22 +6,7 @@
     <link rel="stylesheet" href="css/Temp.css">
     <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
-    <script type="text/javascript">
-    var acc = document.getElementsByClassName("acordeon");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-    </script>
+   
 </head>
 <body>
     <div id="container">
@@ -40,10 +25,10 @@ for (i = 0; i < acc.length; i++) {
         </nav>
         <section>
             <h3>Temporadas</h3>
-            <button class="acordeon" onclick="cambiar('temporada1'); return false;">
+            <button class="acordeon">
                 Temporada 1 (14 episodios)</button>
-            <div id="temporada1" class="panel" style="display: block;">
-            <p>Emitida en 1983, cuenta con 14 episodios</p>
+            <div id="temporada1" class="panel">
+            <p>Emitida en 1983, cuenta con 14 episodios</p><br>
             <ol>
                 <li>Operación A.T "El pueblo de San Rio Blanco"</li><br>
                 <li>
@@ -87,13 +72,13 @@ for (i = 0; i < acc.length; i++) {
             </li><br>
         </ol>
     </div>
-    <button class="acordeon" onclick="cambiar('temporada2')"; onclick="animation"; return false;">
+    <button class="acordeon">
         Temporada 2 (23 episodios)
 </button>
-    <div id="temporada2" class="panel" style="display: none;">
+    <div id="temporada2" class="panel">
         <p>
             Emitida entre 1983 y 1984, cuenta con 23 episodios
-        </p>
+        </p><br>
         <ol>
             <li>
             Polvo de diamantes  
@@ -166,13 +151,13 @@ for (i = 0; i < acc.length; i++) {
             </li><br>
         </ol>
     </div>
-    <button class="acordeon" onclick="cambiar('temporada3'); return false;">
+    <button class="acordeon">
         Temporada 3 (25 episodios)
 </button>
-    <div id="temporada3" class="panel" style="display: none;">
+    <div id="temporada3" class="panel">
         <p>
             Emitida entre 1984 y 1985, cuenta con 25 episodios
-        </p>
+        </p><br>
         <ol>
             <li>
                 Balas y bikinis
@@ -251,13 +236,13 @@ for (i = 0; i < acc.length; i++) {
             </li><br>
         </ol>
     </div>
-    <button class="acordeon" onclick="cambiar('temporada4'); return false;">
+    <button class="acordeon">
         Temporada 4 (25 episodios)
 </button>
-    <div id="temporada4" class="panel" style="display: none;">
+    <div id="temporada4" class="panel">
         <p>
             Emitida entre 1985 y 1986, cuenta con 23 episodios
-        </p>
+        </p><br>
         <ol>
             <li>
                 El día del juicio (primera parte)
@@ -330,13 +315,13 @@ for (i = 0; i < acc.length; i++) {
             </li><br>
         </ol>
     </div>
-    <button class="acordeon" onclick="cambiar('temporada5'); return false;">
+    <button class="acordeon">
         Temporada 5 (23 episodios)
     </button>
-    <div id="temporada5" class="panel" style="display: none;">
+    <div id="temporada5" class="panel">
         <p>
             Emitida entre 1986 y 1987, cuenta con 13 episodios
-        </p>
+        </p><br>
         <ol>
             <li>
                 El topo<br>
@@ -379,7 +364,23 @@ for (i = 0; i < acc.length; i++) {
             </li><br>
         </ol>
     </div>
-    
+    <script>
+        var acc = document.getElementsByClassName("acordeon");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+</script>
+
         </section>
         <aside>
         <img src="img/equipoA.jpg" style="width: 80%" height="80%">
