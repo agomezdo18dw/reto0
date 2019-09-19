@@ -69,11 +69,10 @@ tr{
     text-align: center
 }
 section{
-  width: 48%;
   float: left;
-  
   margin:20px;
   margin-bottom: 15px;
+  width: 100%;
 }
 .ocultar{
   text-emphasis: none;
@@ -128,11 +127,17 @@ ol li{
   font-size: 17px;
   margin-top: 5px;
 }
-aside{
-  margin-top: 50px;
-  margin-left: 100px;
+#contenido{
   float:left;
+  width: 49%;
+}
+#aside{
+  float:left;
+  margin-left: 40px;
+}
+img{
   width: 450px;
+  
 }
 footer {
     width: 100%;

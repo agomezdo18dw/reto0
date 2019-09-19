@@ -24,7 +24,9 @@
             </ul>
         </nav>
         <section>
-            <h2>Temporadas</h2>
+        <h2>Temporadas</h2>
+            <div id=contenido>
+            
             <button class="acordeon">
                 <b>Temporada 1 (14 episodios)</b>
             </button>
@@ -384,10 +386,11 @@
                 }
             </script>
 
-        </section>
-        <aside>
-            <img src="img/equipoA.jpg" style="width: 80%" height="80%">
-        </aside>
+            </div>
+        <div id=aside>
+            <img src="img/equipoA.jpg" >
+            </div>
+            </section>
         <footer>
             <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo
                 <script>
