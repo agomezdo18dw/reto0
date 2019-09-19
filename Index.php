@@ -23,9 +23,9 @@
             </ul>
         </nav>
         <section>
-            
+        <h2>El equipo A</h2>
             <div id="datos">
-                <h2>El equipo A</h2>
+                
                 <dl>
                     <dt><b>Duracion media cap. :</b></dt></br>
                         <dd> 60 minutos</dd>
