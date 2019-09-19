@@ -46,7 +46,7 @@ h3 {
 }
 img {
     height: 150px;
-    width: 120px
+    width: 120px;
 }
 footer {
     width: 100%;
@@ -64,10 +64,10 @@ dd{
   margin-left: 50px;
 }
 #FotSin{
-  margin-top: 50px;
+  margin-top: 75px;
   float:left;
-  width: 240px;
-  height:200px;
+  width: 450px;
+  height:250px;
   margin-left: 40px;
   border-radius: 5%;
 }

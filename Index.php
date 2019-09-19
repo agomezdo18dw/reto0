@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <section>
-            <img id="FotSin" src="img/Sinops.jpg" alt="FotError" >
+            
             <div id="datos">
                 <h2>El equipo A</h2>
                 <dl>
@@ -43,6 +43,7 @@
                         <dd>Narra las andanzas de un grupo de cuatro soldados desertores de la guerra de Vietnam, que trabajan como mercenarios, siempre por causas justas.</dd>
                 </dl>
             </div>
+            <img id="FotSin" src="img/Sinops.jpg" alt="FotError" >
         </section>
         <footer>
             <p>Adrián Gómez, Samuel Rodríguez, Iñigo Perez @ Zubiri manteo
