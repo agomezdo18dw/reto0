@@ -43,15 +43,20 @@
       background-color: rgb(179, 66, 66);
       font-weight: bold;
     }
-    h3{
+    h2{
       text-align: center;
       margin-top: 10px;
+    }
+    section{
+      margin: 20px;
     }
     section p {
       width: 700px;
       display: inline-block;
       margin-top: 30px;
       margin-bottom: 50px;
+      font-size: 17px;
+      line-height: 22px;
     }
     img {
         height: 170px;

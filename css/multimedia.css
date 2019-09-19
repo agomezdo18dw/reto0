@@ -48,7 +48,6 @@ h3 {
 section div {
   width: 50%;
   float: left;
-  margin-top: 10px;
 }
 section p {
   font-size: 18px;
@@ -72,4 +71,5 @@ iframe{
 }
 section{
   text-align: center;
+  margin: 20px;
 }

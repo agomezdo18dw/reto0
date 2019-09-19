@@ -27,7 +27,7 @@
             <div id="datos">
                 <h2>El equipo A</h2>
                 <dl>
-                    <dt><b>Duracion cap. :</b></dt></br>
+                    <dt><b>Duracion media cap. :</b></dt></br>
                         <dd> 60 minutos</dd>
                 </dl></br>
                 <dl>

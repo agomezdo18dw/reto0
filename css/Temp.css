@@ -69,9 +69,11 @@ tr{
     text-align: center
 }
 section{
-  width: 49%;
+  width: 48%;
   float: left;
-  padding-top: 20px;
+  
+  margin:20px;
+  margin-bottom: 15px;
 }
 .ocultar{
   text-emphasis: none;
@@ -114,9 +116,7 @@ section a:link{
   overflow: hidden;
   transition: max-height 0.8s ease-out;
 }
-section {
-  margin-bottom: 15px;
-}
+
 section p {
   margin-top: 10px;
   margin-bottom: 10px;
