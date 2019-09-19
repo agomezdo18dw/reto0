@@ -46,7 +46,7 @@ h3 {
     text-align: center;
 }
 section div {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 section p {
@@ -66,7 +66,7 @@ footer p {
     padding-top: 5px;
 }
 iframe{
-  width: 450px;
+  width: 80%;
   height: 350px;
 }
 section{

@@ -68,8 +68,8 @@ dd{
 #FotSin{
   margin-top: 45px;
   float:left;
-  width: 450px;
-  height:250px;
+  width: 45%;
+  height:25%;
   margin-left: 40px;
   border-radius: 5%;
 }
@@ -78,7 +78,7 @@ section{
 }
 #datos{
   float: left;
-  width: 500px;
+  width: 45%;
   margin-left: 15px;
   margin-bottom: 33px;
 }
