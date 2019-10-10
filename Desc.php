@@ -28,12 +28,12 @@
         </header>
         <nav>
             <ul>
-                <li><a class="trn" data-trn-key="desc" href="Desc.php" id="active">Descripcion</a></li>
-                <li><a class="trn" data-trn-key="temp" href="Temp.php">Temporadas</a></li>
-                <li><a class="trn" data-trn-key="act" href="Act.php">Actores</a></li>
-                <li><a class="trn" data-trn-key="merch" href="Merch.php">Merchandising</a></li>
-                <li><a class="trn" data-trn-key="mult" href="Mult.php">Multimedia</a></li>
-                <li class="trn" data-trn-key="ini" style="float:right"><a href="Index.php">Inicio</a></li>
+                <li><a href="Desc.php" class="trn" data-trn-key="desc"><label>Descripcion</label></a></li>
+                <li><a href="Temp.php" class="trn" data-trn-key="temp">Temporadas</a></li>
+                <li><a href="Act.php" class="trn" data-trn-key="act">Actores</a></li>
+                <li><a href="Merch.php" class="trn" data-trn-key="merch">Merchandising</a></li>
+                <li><a href="Mult.php" class="trn" data-trn-key="mult">Multimedia</a></li>
+                <li style="float:right"><a href="Index.php" id="active" class="trn" data-trn-key="ini">Inicio</a></li>
             </ul>
         </nav>
         <section>
