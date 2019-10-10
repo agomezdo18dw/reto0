@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <section>
-            <h3>Descripcion</h3>
+            <h2>Descripcion</h2>
             <p>Oficialmente se dice que durante la guerra de Vietnam, el coronel Samuel Morrison 
                 ordena al A-Team que ataque el Banco de Hanoi para ayudar a la finalización de la guerra. 
                 El A-Team completa la misión con éxito, pero al volver a la base estadounidense cuatro 

@@ -25,7 +25,7 @@
         <section>
             <table>
                 <tr id="tr1">
-                    <td class="AP"><h3>Actor y Personaje</h3></td>
+                    <td id="AP1"><h3>Actor y Personaje</h3></td>
                     <td><h3>Descripcion</h3></td>
                     <td><h3>Imagen</h3></td>
                 </tr>

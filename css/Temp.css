@@ -3,8 +3,8 @@ margin:0;
 padding:0;
 }
 #container{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 header{
     height: 148px;
@@ -44,9 +44,12 @@ ul li a:hover:not(#active) {
 
 #active {
   background-color: rgb(179, 66, 66);
+  font-weight: bold;
 }
-h3 {
-    text-align: center;
+h2 {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 tr{
     height: 100px;
@@ -57,22 +60,15 @@ tr{
 .AP {
     width: 150px;
 }
-.info {
-    width: 800px;
-    text-align: justify;
-}
-.image {
-    width: 250px;
-    text-align: center
-}
+
+
 section{
-  width: 49%;
   float: left;
-  padding-top: 20px;
+  margin:20px;
+  margin-bottom: 15px;
+  width: 100%;
 }
-.ocultar{
-  text-emphasis: none;
-}
+
 section a:link{
   text-decoration: none;
   color: black;
@@ -111,22 +107,30 @@ section a:link{
   overflow: hidden;
   transition: max-height 0.8s ease-out;
 }
+
 section p {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 20px;
 }
 ol li{
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 17px;
   margin-top: 5px;
 }
-aside{
-  margin-top: 50px;
-  margin-left: 100px;
+#contenido{
   float:left;
-  width: 450px;
+  width: 48%;
+}
+#aside{
+  float:left;
+  margin-left: 20px;
+  width: 48%;
+}
+img{
+  width: 70%;
+  
 }
 footer {
     width: 100%;

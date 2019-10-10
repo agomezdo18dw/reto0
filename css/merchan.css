@@ -40,9 +40,7 @@ li a:hover:not(#active) {
 }
 #active {
   background-color: rgb(179, 66, 66);
-}
-h3 {
-    text-align: center;
+  font-weight: bold;
 }
 footer {
     width: 100%;
@@ -55,9 +53,6 @@ footer {
 }
 footer p {
     padding-top: 5px;
-}
-dd{
-  margin-left: 50px;
 }
 #FotSin{
   margin-top: 50px;
@@ -95,4 +90,7 @@ input:hover {
   height: 25px;
   border-radius: 5px;
   color: white;
+}
+#nombre {
+  text-align: center;
 }

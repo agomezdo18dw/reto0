@@ -40,13 +40,18 @@ li a:hover:not(#active) {
 }
 #active {
   background-color: rgb(179, 66, 66);
+  font-weight: bold;
 }
 h3 {
     text-align: center;
 }
 section div {
-  width: 49%;
+  width: 48%;
   float: left;
+}
+section p {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 footer {
     width: 100%;
@@ -60,18 +65,11 @@ footer {
 footer p {
     padding-top: 5px;
 }
-#FotSin{
-  margin-top: 50px;
-  float:left;
-  width: 240px;
-  height:200px;
-  margin-left: 40px;
-  border-radius: 5%;
-}
 iframe{
-  width: 100px;
+  width: 80%;
+  height: 350px;
 }
 section{
-  margin:20px;
   text-align: center;
+  margin: 20px;
 }

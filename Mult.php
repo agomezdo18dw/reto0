@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Reto0/Actores</title>
-    <link rel="stylesheet" href="css/merchan.css">
+    <link rel="stylesheet" href="css/multimedia.css">
     <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
 </head>
@@ -24,12 +24,12 @@
         </nav>
         <section>
             <div>
-                <h4>Video 1</h4>
+                <h2>Video 1</h2>
                 <iframe src="https://www.youtube.com/embed/N1HMCArgqWM?rel=0&showinfo=0"></iframe>
                 <p>Esta es la secuencia de inicio (opening) de la serie</p>
             </div>
             <div>
-                <h4>Video 2</h4>
+                <h2>Video 2</h2>
                 <iframe src="https://www.youtube.com/embed/aUVhTqN7Nps?=rel=0&start=9"></iframe>
                 <p>Hace no mucho sacaron una película, y éste es el trailer</p>
             </div>

@@ -37,13 +37,20 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover:not(#active) {
   background-color: #111;
 }
 
+section{
+    margin: 20px;
+}
+table {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
 #active {
   background-color: rgb(179, 66, 66);
+  font-weight: bold;
 }
 h3 {
     text-align: center;
@@ -53,21 +60,26 @@ tr{
 }
 #tr1 {
     height: 50px;
+    font-size: 20px;
+}
+#AP1 {
+    width: 200px;
 }
 .AP {
-    width: 150px;
+    font-size: 20px;
 }
 .info {
-    width: 800px;
+    width: 700px;
     text-align: justify;
+    font-size: 17px;
 }
 img {
     height: 150px;
-    width: 120px
+    width: 120px;
 }
 .image {
     width: 250px;
-    text-align: center
+    text-align: center;
 }
 footer {
     width: 100%;
