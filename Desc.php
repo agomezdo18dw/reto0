@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/Descripcion.css">
     <?php $fechaPHP = date('Y/m/d - H:i:s');?>
     <script src="js/js.js"></script>
-<script src="js/Diccionario.js"></script>
-<script src="js/jquery.translate.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.translate.js"></script>
+    <script type="text/javascript" src="js/Diccionario.js"></script>
 </head>
 <body>
     <div id="container">
