@@ -79,6 +79,16 @@ var dict = {
         eu: "Vietnamgo gerrako lau soldadu desertoreren talde baten abenturak kontatzen ditu, mertzenario gisa lan egiten dutenak, beti arrazoi arrazoi batzuengatik.",
         es: "Narra las andanzas de un grupo de cuatro soldados desertores de la guerra de Vietnam, que trabajan como mercenarios, siempre por causas justas."
     },
+    "TituloDesc":{
+	en:"Description",
+	eu:"Deskripzioa",
+	es:"Descripcion",
+    },
+    "DescripcionParrafo":{
+	en:"",
+	eu:"",
+	es:"",
+    },
 }
 function cambiarIdioma(idioma){
     var translator = $('body').translate({lang: idioma, t: dict});
