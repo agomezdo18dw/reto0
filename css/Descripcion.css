@@ -2,8 +2,19 @@
     margin:0;
     padding:0;
     }
+    #idiomas{
+    float: right;
+    margin-right: 30px;
+    margin-top: -10px;
+    }
     .nose {
-      float: left;
+        float: left;
+    }
+    #idiomas img{
+        float: left;
+        width: 30px;
+        height: 15px;
+        margin-left: 3px;
     }
     #container{
         margin-left: 100px;
