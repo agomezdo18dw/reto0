@@ -26,12 +26,12 @@
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    #reloj{
-        color: white;
-        float: right;
-        margin-right: 30px;
-        margin-top: 5px;
-    }
+#reloj{
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 5px;
+}
     ul {
       list-style-type: none;
       margin: 0;
