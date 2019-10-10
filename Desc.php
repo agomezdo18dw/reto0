@@ -24,7 +24,7 @@
 		<div class="nose" onclick="cambiarIdioma('eu')">
 			<img src="img/banderas/ikurri%C3%B1a.png">
 		</div>
-
+    </div>
         </header>
         <nav>
             <ul>
